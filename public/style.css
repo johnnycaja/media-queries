@@ -1,0 +1,33 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+}
+
+.content-wrapper {
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+	margin: auto;
+}
+
+#main-header {
+	background-color: #34F463;
+	color: white;
+}
+
+#main-nav {
+	float: right;
+}
+
+#main-nav li {
+	display: inline-block;
+	padding: 1em;
+}
+
+#logo {
+	font-weight: bold;
+	font-size: 24px;
+	text-shadow: rgba(0,0,0,.5) 2px 2px;
+	float: left;
+	margin-top: 0.5em;
+}
