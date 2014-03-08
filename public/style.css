@@ -34,11 +34,22 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+	.content-wrapper {
+		width: auto;
+	}
+
 	#main-header {
 		background: red;
 	}
 
-	.content-wrapper {
-		width: auto;
+	#main-nav {
+		float: none;
+		text-align: center;
 	}
+
+	#logo {
+		float: none;
+		text-align: center;
+	}
+
 }
